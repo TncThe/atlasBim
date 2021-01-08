@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\xbin\\atlas\\atlasBim\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\xbin\\atlas\\atlasBim\\Tests\\Tests.csproj": {
+      "version": "5.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\xbin\\atlas\\atlasBim\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\xbin\\atlas\\atlasBim\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\goktu\\.nuget\\packages\\",
+        "outputPath": "C:\\xbin\\atlas\\atlasBim\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\xbin\\atlas\\atlasBim\\NuGet.Config",
+          "C:\\Users\\goktu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/xbim-develop/api/v3/index.json": {},
+          "https://www.myget.org/F/xbim-develop/api/v3/index.json": {},
+          "https://www.myget.org/F/xbim-master/api/v3/index.json": {},
+          "https://www.myget.org/F/xbim-master/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\xbin\\atlas\\atlasBim\\Xbim.Presentation\\Xbim.Presentation.csproj": {
+                "projectPath": "C:\\xbin\\atlas\\atlasBim\\Xbim.Presentation\\Xbim.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\xbin\\atlas\\atlasBim\\Xbim.Presentation\\Xbim.Presentation.csproj": {
+      "version": "5.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\xbin\\atlas\\atlasBim\\Xbim.Presentation\\Xbim.Presentation.csproj",
+        "projectName": "Xbim.WindowsUI",
+        "projectPath": "C:\\xbin\\atlas\\atlasBim\\Xbim.Presentation\\Xbim.Presentation.csproj",
+        "packagesPath": "C:\\Users\\goktu\\.nuget\\packages\\",
+        "outputPath": "C:\\xbin\\atlas\\atlasBim\\Xbim.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\xbin\\atlas\\atlasBim\\NuGet.Config",
+          "C:\\Users\\goktu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/xbim-develop/api/v3/index.json": {},
+          "https://www.myget.org/F/xbim-develop/api/v3/index.json": {},
+          "https://www.myget.org/F/xbim-master/api/v3/index.json": {},
+          "https://www.myget.org/F/xbim-master/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "HelixToolkit.Wpf": {
+              "target": "Package",
+              "version": "[2015.1.715, )"
+            },
+            "PropertyTools.Wpf": {
+              "target": "Package",
+              "version": "[2015.1.66, )"
+            },
+            "Xbim.Essentials": {
+              "target": "Package",
+              "version": "[5.1.322-develop, )"
+            },
+            "Xbim.Geometry": {
+              "target": "Package",
+              "version": "[5.1.403, )"
+            },
+            "Xbim.Geometry.Engine.Interop": {
+              "target": "Package",
+              "version": "[5.1.403, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
